@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F77ECBE51E1DE53100ACA786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECBE41E1DE53100ACA786 /* main.m */; };
+		F77ECBE81E1DE53100ACA786 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECBE71E1DE53100ACA786 /* AppDelegate.m */; };
+		F77ECBEE1E1DE53100ACA786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77ECBEC1E1DE53100ACA786 /* Main.storyboard */; };
+		F77ECBF01E1DE53100ACA786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77ECBEF1E1DE53100ACA786 /* Assets.xcassets */; };
+		F77ECBF31E1DE53100ACA786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77ECBF11E1DE53100ACA786 /* LaunchScreen.storyboard */; };
+		F77ECBFC1E1DE57000ACA786 /* ZYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECBFB1E1DE57000ACA786 /* ZYButton.m */; };
+		F77ECBFF1E1DE67D00ACA786 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECBFE1E1DE67D00ACA786 /* RootViewController.m */; };
+		F77ECC021E1DE68600ACA786 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECC011E1DE68600ACA786 /* NextViewController.m */; };
+		F77ECC051E1E34B400ACA786 /* EnlargeAllDirectionClickRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECC041E1E34B400ACA786 /* EnlargeAllDirectionClickRangeButton.m */; };
+		F77ECC081E1E34E700ACA786 /* EnlargeWidthClickRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECC071E1E34E700ACA786 /* EnlargeWidthClickRangeButton.m */; };
+		F77ECC0B1E1E34FF00ACA786 /* EnlargeHeightClickRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECC0A1E1E34FF00ACA786 /* EnlargeHeightClickRangeButton.m */; };
+		F77ECC0E1E1E352D00ACA786 /* EnlargeLeftDirectionClickRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECC0D1E1E352D00ACA786 /* EnlargeLeftDirectionClickRangeButton.m */; };
+		F77ECC111E1E355700ACA786 /* EnlargeRightDirectionClickRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECC101E1E355700ACA786 /* EnlargeRightDirectionClickRangeButton.m */; };
+		F77ECC141E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECC131E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.m */; };
+		F77ECC171E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECC161E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F77ECBE01E1DE53100ACA786 /* EnlargeClickRangeOfUIButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnlargeClickRangeOfUIButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77ECBE41E1DE53100ACA786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F77ECBE61E1DE53100ACA786 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F77ECBE71E1DE53100ACA786 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F77ECBED1E1DE53100ACA786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F77ECBEF1E1DE53100ACA786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77ECBF21E1DE53100ACA786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F77ECBF41E1DE53100ACA786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77ECBFA1E1DE57000ACA786 /* ZYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYButton.h; sourceTree = "<group>"; };
+		F77ECBFB1E1DE57000ACA786 /* ZYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYButton.m; sourceTree = "<group>"; };
+		F77ECBFD1E1DE67D00ACA786 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F77ECBFE1E1DE67D00ACA786 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F77ECC001E1DE68600ACA786 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		F77ECC011E1DE68600ACA786 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		F77ECC031E1E34B400ACA786 /* EnlargeAllDirectionClickRangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeAllDirectionClickRangeButton.h; sourceTree = "<group>"; };
+		F77ECC041E1E34B400ACA786 /* EnlargeAllDirectionClickRangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeAllDirectionClickRangeButton.m; sourceTree = "<group>"; };
+		F77ECC061E1E34E700ACA786 /* EnlargeWidthClickRangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeWidthClickRangeButton.h; sourceTree = "<group>"; };
+		F77ECC071E1E34E700ACA786 /* EnlargeWidthClickRangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeWidthClickRangeButton.m; sourceTree = "<group>"; };
+		F77ECC091E1E34FF00ACA786 /* EnlargeHeightClickRangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeHeightClickRangeButton.h; sourceTree = "<group>"; };
+		F77ECC0A1E1E34FF00ACA786 /* EnlargeHeightClickRangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeHeightClickRangeButton.m; sourceTree = "<group>"; };
+		F77ECC0C1E1E352D00ACA786 /* EnlargeLeftDirectionClickRangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeLeftDirectionClickRangeButton.h; sourceTree = "<group>"; };
+		F77ECC0D1E1E352D00ACA786 /* EnlargeLeftDirectionClickRangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeLeftDirectionClickRangeButton.m; sourceTree = "<group>"; };
+		F77ECC0F1E1E355700ACA786 /* EnlargeRightDirectionClickRangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeRightDirectionClickRangeButton.h; sourceTree = "<group>"; };
+		F77ECC101E1E355700ACA786 /* EnlargeRightDirectionClickRangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeRightDirectionClickRangeButton.m; sourceTree = "<group>"; };
+		F77ECC121E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeTopDirectionClickRangeButton.h; sourceTree = "<group>"; };
+		F77ECC131E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeTopDirectionClickRangeButton.m; sourceTree = "<group>"; };
+		F77ECC151E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeBottomDirectionClickRangeButton.h; sourceTree = "<group>"; };
+		F77ECC161E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeBottomDirectionClickRangeButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77ECBDD1E1DE53100ACA786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F77ECBD71E1DE53100ACA786 = {
+			isa = PBXGroup;
+			children = (
+				F77ECBE21E1DE53100ACA786 /* EnlargeClickRangeOfUIButton */,
+				F77ECBE11E1DE53100ACA786 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F77ECBE11E1DE53100ACA786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77ECBE01E1DE53100ACA786 /* EnlargeClickRangeOfUIButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77ECBE21E1DE53100ACA786 /* EnlargeClickRangeOfUIButton */ = {
+			isa = PBXGroup;
+			children = (
+				F77ECBE61E1DE53100ACA786 /* AppDelegate.h */,
+				F77ECBE71E1DE53100ACA786 /* AppDelegate.m */,
+				F77ECBFD1E1DE67D00ACA786 /* RootViewController.h */,
+				F77ECBFE1E1DE67D00ACA786 /* RootViewController.m */,
+				F77ECC001E1DE68600ACA786 /* NextViewController.h */,
+				F77ECC011E1DE68600ACA786 /* NextViewController.m */,
+				F77ECBFA1E1DE57000ACA786 /* ZYButton.h */,
+				F77ECBFB1E1DE57000ACA786 /* ZYButton.m */,
+				F77ECC031E1E34B400ACA786 /* EnlargeAllDirectionClickRangeButton.h */,
+				F77ECC041E1E34B400ACA786 /* EnlargeAllDirectionClickRangeButton.m */,
+				F77ECC061E1E34E700ACA786 /* EnlargeWidthClickRangeButton.h */,
+				F77ECC071E1E34E700ACA786 /* EnlargeWidthClickRangeButton.m */,
+				F77ECC091E1E34FF00ACA786 /* EnlargeHeightClickRangeButton.h */,
+				F77ECC0A1E1E34FF00ACA786 /* EnlargeHeightClickRangeButton.m */,
+				F77ECC0C1E1E352D00ACA786 /* EnlargeLeftDirectionClickRangeButton.h */,
+				F77ECC0D1E1E352D00ACA786 /* EnlargeLeftDirectionClickRangeButton.m */,
+				F77ECC0F1E1E355700ACA786 /* EnlargeRightDirectionClickRangeButton.h */,
+				F77ECC101E1E355700ACA786 /* EnlargeRightDirectionClickRangeButton.m */,
+				F77ECC121E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.h */,
+				F77ECC131E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.m */,
+				F77ECC151E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.h */,
+				F77ECC161E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.m */,
+				F77ECBEC1E1DE53100ACA786 /* Main.storyboard */,
+				F77ECBEF1E1DE53100ACA786 /* Assets.xcassets */,
+				F77ECBF11E1DE53100ACA786 /* LaunchScreen.storyboard */,
+				F77ECBF41E1DE53100ACA786 /* Info.plist */,
+				F77ECBE31E1DE53100ACA786 /* Supporting Files */,
+			);
+			path = EnlargeClickRangeOfUIButton;
+			sourceTree = "<group>";
+		};
+		F77ECBE31E1DE53100ACA786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F77ECBE41E1DE53100ACA786 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77ECBDF1E1DE53100ACA786 /* EnlargeClickRangeOfUIButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77ECBF71E1DE53100ACA786 /* Build configuration list for PBXNativeTarget "EnlargeClickRangeOfUIButton" */;
+			buildPhases = (
+				F77ECBDC1E1DE53100ACA786 /* Sources */,
+				F77ECBDD1E1DE53100ACA786 /* Frameworks */,
+				F77ECBDE1E1DE53100ACA786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnlargeClickRangeOfUIButton;
+			productName = EnlargeClickRangeOfUIButton;
+			productReference = F77ECBE01E1DE53100ACA786 /* EnlargeClickRangeOfUIButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77ECBD81E1DE53100ACA786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = chuanglong;
+				TargetAttributes = {
+					F77ECBDF1E1DE53100ACA786 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YQSV9JS5Z8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F77ECBDB1E1DE53100ACA786 /* Build configuration list for PBXProject "EnlargeClickRangeOfUIButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77ECBD71E1DE53100ACA786;
+			productRefGroup = F77ECBE11E1DE53100ACA786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77ECBDF1E1DE53100ACA786 /* EnlargeClickRangeOfUIButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77ECBDE1E1DE53100ACA786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77ECBF31E1DE53100ACA786 /* LaunchScreen.storyboard in Resources */,
+				F77ECBF01E1DE53100ACA786 /* Assets.xcassets in Resources */,
+				F77ECBEE1E1DE53100ACA786 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77ECBDC1E1DE53100ACA786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77ECC0B1E1E34FF00ACA786 /* EnlargeHeightClickRangeButton.m in Sources */,
+				F77ECC0E1E1E352D00ACA786 /* EnlargeLeftDirectionClickRangeButton.m in Sources */,
+				F77ECC171E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.m in Sources */,
+				F77ECC111E1E355700ACA786 /* EnlargeRightDirectionClickRangeButton.m in Sources */,
+				F77ECC021E1DE68600ACA786 /* NextViewController.m in Sources */,
+				F77ECBFC1E1DE57000ACA786 /* ZYButton.m in Sources */,
+				F77ECC141E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.m in Sources */,
+				F77ECC081E1E34E700ACA786 /* EnlargeWidthClickRangeButton.m in Sources */,
+				F77ECBE81E1DE53100ACA786 /* AppDelegate.m in Sources */,
+				F77ECC051E1E34B400ACA786 /* EnlargeAllDirectionClickRangeButton.m in Sources */,
+				F77ECBFF1E1DE67D00ACA786 /* RootViewController.m in Sources */,
+				F77ECBE51E1DE53100ACA786 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F77ECBEC1E1DE53100ACA786 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77ECBED1E1DE53100ACA786 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F77ECBF11E1DE53100ACA786 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77ECBF21E1DE53100ACA786 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77ECBF51E1DE53100ACA786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F77ECBF61E1DE53100ACA786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77ECBF81E1DE53100ACA786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = EnlargeClickRangeOfUIButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong.EnlargeClickRangeOfUIButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F77ECBF91E1DE53100ACA786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				INFOPLIST_FILE = EnlargeClickRangeOfUIButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chuanglong.EnlargeClickRangeOfUIButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77ECBDB1E1DE53100ACA786 /* Build configuration list for PBXProject "EnlargeClickRangeOfUIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77ECBF51E1DE53100ACA786 /* Debug */,
+				F77ECBF61E1DE53100ACA786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77ECBF71E1DE53100ACA786 /* Build configuration list for PBXNativeTarget "EnlargeClickRangeOfUIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77ECBF81E1DE53100ACA786 /* Debug */,
+				F77ECBF91E1DE53100ACA786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F77ECBD81E1DE53100ACA786 /* Project object */;
+}
