@@ -22,6 +22,7 @@
 #import "EnlargeRightDirectionClickRangeButton.h"
 #import "EnlargeTopDirectionClickRangeButton.h"
 #import "EnlargeBottomDirectionClickRangeButton.h"
+#import "EnlargeCircleClickRangeButton.h"
 
 @interface RootViewController ()
 
@@ -42,48 +43,57 @@
     [self setupEnlargeBottomDirectionClickRangeButton];
     [self setupEnlargeLeftDirectionClickRangeButton];
     [self setupEnlargeRightDirectionClickRangeButton];
+    [self setupEnlargeCircleClickRangeButton];
 }
 
 - (void)setupEnlargeAllDirectionClickRangeButton {
-    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH - ENLARGE_WIDTH) / 2.0, 30, BUTTON_WIDTH + ENLARGE_WIDTH, BUTTON_HEIGHT + ENLARGE_HEIGHT);
+    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH - ENLARGE_WIDTH) / 2.0, 10, BUTTON_WIDTH + ENLARGE_WIDTH, BUTTON_HEIGHT + ENLARGE_HEIGHT);
     EnlargeAllDirectionClickRangeButton *btn = [[EnlargeAllDirectionClickRangeButton alloc] initWithFrame:CGRectMake(ENLARGE_WIDTH / 2.0, ENLARGE_HEIGHT / 2.0, BUTTON_WIDTH, BUTTON_HEIGHT)];
     [self setupGreenViewWithFrame:rect button:btn];
 }
 
 - (void)setupEnlargeWidthClickRangeButton {
-    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH - ENLARGE_WIDTH) / 2.0, 130, BUTTON_WIDTH + ENLARGE_WIDTH, BUTTON_HEIGHT);
+    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH - ENLARGE_WIDTH) / 2.0, 110, BUTTON_WIDTH + ENLARGE_WIDTH, BUTTON_HEIGHT);
     EnlargeWidthClickRangeButton *btn = [[EnlargeWidthClickRangeButton alloc] initWithFrame:CGRectMake(ENLARGE_WIDTH / 2.0, 0, BUTTON_WIDTH, BUTTON_HEIGHT)];
     [self setupGreenViewWithFrame:rect button:btn];
 }
 
 - (void)setupEnlargeHeightClickRangeButton {
-    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH) / 2.0, 190, BUTTON_WIDTH, BUTTON_HEIGHT + ENLARGE_HEIGHT);
+    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH) / 2.0, 170, BUTTON_WIDTH, BUTTON_HEIGHT + ENLARGE_HEIGHT);
     EnlargeAllDirectionClickRangeButton *btn = [[EnlargeAllDirectionClickRangeButton alloc] initWithFrame:CGRectMake(0, ENLARGE_HEIGHT / 2.0, BUTTON_WIDTH, BUTTON_HEIGHT)];
     [self setupGreenViewWithFrame:rect button:btn];
 }
 
 - (void)setupEnlargeTopDirectionClickRangeButton {
-    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH) / 2.0, 290, BUTTON_WIDTH, BUTTON_HEIGHT + ENLARGE_HEIGHT / 2.0);
+    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH) / 2.0, 270, BUTTON_WIDTH, BUTTON_HEIGHT + ENLARGE_HEIGHT / 2.0);
     EnlargeAllDirectionClickRangeButton *btn = [[EnlargeAllDirectionClickRangeButton alloc] initWithFrame:CGRectMake(0, ENLARGE_HEIGHT / 2.0, BUTTON_WIDTH, BUTTON_HEIGHT)];
     [self setupGreenViewWithFrame:rect button:btn];
 }
 
 - (void)setupEnlargeBottomDirectionClickRangeButton {
-    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH) / 2.0, 370, BUTTON_WIDTH, BUTTON_HEIGHT + ENLARGE_HEIGHT / 2.0);
+    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH) / 2.0, 350, BUTTON_WIDTH, BUTTON_HEIGHT + ENLARGE_HEIGHT / 2.0);
     EnlargeAllDirectionClickRangeButton *btn = [[EnlargeAllDirectionClickRangeButton alloc] initWithFrame:CGRectMake(0, 0, BUTTON_WIDTH, BUTTON_HEIGHT)];
     [self setupGreenViewWithFrame:rect button:btn];
 }
 
 - (void)setupEnlargeLeftDirectionClickRangeButton {
-    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH - ENLARGE_WIDTH) / 2.0, 450, BUTTON_WIDTH + ENLARGE_WIDTH / 2.0, BUTTON_HEIGHT + ENLARGE_HEIGHT / 2.0);
+    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH - ENLARGE_WIDTH) / 2.0, 430, BUTTON_WIDTH + ENLARGE_WIDTH / 2.0, BUTTON_HEIGHT + ENLARGE_HEIGHT / 2.0);
     EnlargeAllDirectionClickRangeButton *btn = [[EnlargeAllDirectionClickRangeButton alloc] initWithFrame:CGRectMake(ENLARGE_WIDTH / 2.0, ENLARGE_HEIGHT / 2.0, BUTTON_WIDTH, BUTTON_HEIGHT)];
     [self setupGreenViewWithFrame:rect button:btn];
 }
 
 - (void)setupEnlargeRightDirectionClickRangeButton {
-    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH) / 2.0, 530, BUTTON_WIDTH + ENLARGE_WIDTH / 2.0, BUTTON_HEIGHT + ENLARGE_HEIGHT / 2.0);
+    CGRect rect = CGRectMake((DEVICE_WIDTH - BUTTON_WIDTH) / 2.0, 510, BUTTON_WIDTH + ENLARGE_WIDTH / 2.0, BUTTON_HEIGHT + ENLARGE_HEIGHT / 2.0);
     EnlargeAllDirectionClickRangeButton *btn = [[EnlargeAllDirectionClickRangeButton alloc] initWithFrame:CGRectMake(0, 0, BUTTON_WIDTH, BUTTON_HEIGHT)];
     [self setupGreenViewWithFrame:rect button:btn];
+}
+
+- (void)setupEnlargeCircleClickRangeButton {
+    CGRect rect = CGRectMake((DEVICE_WIDTH - (BUTTON_HEIGHT + ENLARGE_HEIGHT)) / 2.0, 590, BUTTON_HEIGHT + ENLARGE_HEIGHT, BUTTON_HEIGHT + ENLARGE_HEIGHT);
+    EnlargeCircleClickRangeButton *btn = [[EnlargeCircleClickRangeButton alloc] initWithFrame:CGRectMake(ENLARGE_HEIGHT / 2.0, ENLARGE_HEIGHT / 2.0, BUTTON_HEIGHT, BUTTON_HEIGHT)];
+    btn.layer.cornerRadius = BUTTON_HEIGHT / 2.0;
+    [self setupGreenViewWithFrame:rect button:btn];
+    btn.superview.layer.cornerRadius = (BUTTON_HEIGHT + ENLARGE_HEIGHT) / 2.0;
 }
 
 - (void)setupGreenViewWithFrame:(CGRect)rect button:(ZYButton *)btn {

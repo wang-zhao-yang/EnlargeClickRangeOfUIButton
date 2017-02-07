@@ -22,6 +22,7 @@
 		F77ECC111E1E355700ACA786 /* EnlargeRightDirectionClickRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECC101E1E355700ACA786 /* EnlargeRightDirectionClickRangeButton.m */; };
 		F77ECC141E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECC131E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.m */; };
 		F77ECC171E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F77ECC161E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.m */; };
+		F790DF581E49ACF300F838A9 /* EnlargeCircleClickRangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F790DF571E49ACF300F838A9 /* EnlargeCircleClickRangeButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,8 @@
 		F77ECC131E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeTopDirectionClickRangeButton.m; sourceTree = "<group>"; };
 		F77ECC151E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeBottomDirectionClickRangeButton.h; sourceTree = "<group>"; };
 		F77ECC161E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeBottomDirectionClickRangeButton.m; sourceTree = "<group>"; };
+		F790DF561E49ACF300F838A9 /* EnlargeCircleClickRangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeCircleClickRangeButton.h; sourceTree = "<group>"; };
+		F790DF571E49ACF300F838A9 /* EnlargeCircleClickRangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeCircleClickRangeButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				F77ECC131E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.m */,
 				F77ECC151E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.h */,
 				F77ECC161E1E35C000ACA786 /* EnlargeBottomDirectionClickRangeButton.m */,
+				F790DF561E49ACF300F838A9 /* EnlargeCircleClickRangeButton.h */,
+				F790DF571E49ACF300F838A9 /* EnlargeCircleClickRangeButton.m */,
 				F77ECBEC1E1DE53100ACA786 /* Main.storyboard */,
 				F77ECBEF1E1DE53100ACA786 /* Assets.xcassets */,
 				F77ECBF11E1DE53100ACA786 /* LaunchScreen.storyboard */,
@@ -202,6 +207,7 @@
 				F77ECC111E1E355700ACA786 /* EnlargeRightDirectionClickRangeButton.m in Sources */,
 				F77ECC021E1DE68600ACA786 /* NextViewController.m in Sources */,
 				F77ECBFC1E1DE57000ACA786 /* ZYButton.m in Sources */,
+				F790DF581E49ACF300F838A9 /* EnlargeCircleClickRangeButton.m in Sources */,
 				F77ECC141E1E35A700ACA786 /* EnlargeTopDirectionClickRangeButton.m in Sources */,
 				F77ECC081E1E34E700ACA786 /* EnlargeWidthClickRangeButton.m in Sources */,
 				F77ECBE81E1DE53100ACA786 /* AppDelegate.m in Sources */,
@@ -364,6 +370,7 @@
 				F77ECBF91E1DE53100ACA786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
